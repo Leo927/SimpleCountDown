@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393c31ab-62c2-4df3-82e0-8011b30a527c" name="Changes" comment="Initial Commit">
+    <list default="true" id="393c31ab-62c2-4df3-82e0-8011b30a527c" name="Changes" comment="Changed to index home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681760028864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed name">
+      <created>1681760690454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760690454</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Renamed to home">
+      <created>1681760765574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760765574</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed to index home">
+      <created>1681760820976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760820976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +92,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Changed name" />
+    <MESSAGE value="Renamed to home" />
+    <MESSAGE value="Changed to index home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to index home" />
   </component>
 </project>

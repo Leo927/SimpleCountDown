@@ -6,15 +6,15 @@
 </head>
 <body>
     <!-- This page implements a count down timer that updates every second.
-     It shows the time in DD:HH:MM:SS format to May. 9th, 2023. It should be visually pleasing-->
+     It shows the time in DD:HH:MM:SS format to a specified time. It should be visually pleasing-->
 
     <script>
         // This function is called every second to update the timer
         function updateTimer() {
             // Get the current time
             var now = new Date();
-            // Get the time for May 9th, 2023, 21:00:00
-            var target = new Date("May 9, 2023 21:00:00");
+            // Get the time for May 15th, 2023, 12:00:00
+            var target = new Date("May 15, 2023 12:00:00");
             // Calculate the difference in milliseconds
             var diff = target - now;
             // Convert the difference to days, hours, minutes, and seconds
