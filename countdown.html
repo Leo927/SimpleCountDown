@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- This page implements a count down timer that updates every second.
+     It shows the time in DD:HH:MM:SS format to May. 9th, 2023. It should be visually pleasing-->
+
+    <script>
+        // This function is called every second to update the timer
+        function updateTimer() {
+            // Get the current time
+            var now = new Date();
+            // Get the time for May 9th, 2023, 21:00:00
+            var target = new Date("May 9, 2023 21:00:00");
+            // Calculate the difference in milliseconds
+            var diff = target - now;
+            // Convert the difference to days, hours, minutes, and seconds
+            var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+            var minutes = Math.floor(diff / (1000 * 60)) % 60;
+            var seconds = Math.floor(diff / 1000) % 60;
+            // Display the time in the element with id="timer"
+            document.getElementById("timer").innerHTML = days + "天" + hours + "小时" + minutes + "分钟" + seconds + "秒";
+        }
+        // Call the updateTimer function every second
+        setInterval(updateTimer, 1000);
+    </script>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 48px;
+            text-align: center;
+        }
+    </style>
+
+    <h1>离见面还有</h1>
+    <div id="timer"></div>
+</body>
+</html>
